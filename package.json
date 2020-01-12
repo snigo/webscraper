@@ -1,0 +1,27 @@
+{
+  "name": "webscraper",
+  "version": "0.1.0",
+  "description": "Scrapes a web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snigo/webscraper.git"
+  },
+  "author": "snigo",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/snigo/webscraper/issues"
+  },
+  "homepage": "https://github.com/snigo/webscraper#readme",
+  "dependencies": {
+    "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0"
+  }
+}
