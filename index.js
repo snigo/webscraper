@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 
-async function websraper(url, targetQuery, extractorFn) {
+async function webscraper(url, targetQuery, extractorFn) {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.setExtraHTTPHeaders({ 'Accept-Language': 'en' });
@@ -10,4 +10,4 @@ async function websraper(url, targetQuery, extractorFn) {
   return result;
 }
 
-module.exports = websraper;
+module.exports = webscraper;
