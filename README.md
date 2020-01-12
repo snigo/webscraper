@@ -4,7 +4,7 @@ Basic web scraper based on pupperteer
 
 ## Usage
 ```
-websraper(url, targetQuery, extractorFn) 
+webscraper(url, targetQuery, extractorFn) 
 ```
 ### Arguments
 
